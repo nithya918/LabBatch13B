@@ -4,9 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { CartComponent } from './cart/cart.component';
+import { ProductComponent } from './product/product.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CartComponent,ProductComponent
+   
   ],
   imports: [
     BrowserModule,
